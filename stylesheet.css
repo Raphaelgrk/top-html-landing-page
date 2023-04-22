@@ -1,10 +1,11 @@
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 40px;
     background-color: #1f2937;
     color: white;
@@ -14,18 +15,72 @@ body {
     display: flex;
 align-items: center;
 font-weight: 900;
+font-size: 24px;
+}
+
+.r-links{
+    display: flex;
+    align-items: center;
+    gap: 10px;   
 }
 
 ul {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 
 li {
     list-style: none;
-    margin: 0 24px;
+    margin: 24px;
 }
 
-.section-two
+/*SECTION 2 */
+
+.section-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    gap: 150px;
+    padding: 80px 0;
+   
+}
+
+/* SECTION A */
+.section-a{
+    max-width: 400px;
+}
+
+.website-awesome{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.placeholder-text{
+    padding: 80px 100px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 7px;
+    padding: 8px 20px;
+}
+
+/* SECTION B */
+
+.section-b {
+    background-color: #6D747D;
+    color: white;
+}
+
+.hero-secondary-txt {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+/*SECTION THREE */
+
 
