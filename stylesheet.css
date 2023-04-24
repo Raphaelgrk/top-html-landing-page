@@ -186,5 +186,15 @@ h4 {
 
 /* FOOTER SECTION */
 
+.footer {
+    padding: 20px 0;
+    background-color: #1F2937;
+}
 
+.txt-footer {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
 
