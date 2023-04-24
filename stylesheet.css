@@ -60,7 +60,7 @@ li {
     padding: 80px 100px;
 }
 
-button {
+.sign-up {
     background-color: #3882f6;
     color: white;
     border-radius: 7px;
@@ -81,6 +81,7 @@ button {
 }
 
 /*SECTION THREE */
+
 
 h2 {
     text-align: center;
@@ -104,3 +105,86 @@ img {
 
 
 /*SECTION FOUR */
+
+.section-four {
+    margin: 50px 0;
+    padding: 100px 0;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.thequote {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    max-width: 1000px;
+    margin-bottom: 0;
+}
+
+.author {
+    font-weight: 800;
+    font-size: 26px;
+    margin-top: 0;
+    display: flex;
+    justify-content: end;
+}
+
+/* SECTION FIVE */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px 0;
+}
+
+.modal {
+    display: flex;
+    background-color: #3B82F6;
+    border-radius: 10px;
+    padding: 50px 150px;
+}
+
+.l-elements {
+    display: flex;
+    flex-direction: column;
+    margin-right: 350px;
+    color: white;
+}
+
+.r-elements {
+    display: flex;
+    align-items: center;
+}
+
+h4 {
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.m-product {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.s-button {
+    padding: 10px 40px;
+    background-color: #3882f6;
+    border-radius: 9px;
+    font-size: 16px;
+    color: white;
+    border-width: 6px;
+    border-color: white;
+}
+
+/* FOOTER SECTION */
+
+
+
